@@ -1,0 +1,141 @@
+*{
+    background-color: rgb(19, 19, 19);
+    color:rgb(226, 225, 223);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    padding-top: 0px;
+}
+
+nav {
+    box-shadow: 0 4px 1px -2px rgb(207, 207, 207);
+    position:fixed;
+    width: 100%;
+    margin-top: -11px;
+    margin-left: -10px;
+    margin-right: -10px;
+    opacity: 85%;
+    background-blend-mode:darken;
+
+}
+
+nav,  nav *{
+    display:flex;
+    padding:5px;
+    justify-content: space-between;
+    font-size: 25px;
+
+
+
+}
+
+nav *{
+    margin-right: 5px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+nav .name h2{
+    font-size: 30px;
+}
+
+
+
+.first {
+    text-align: center;
+    padding-bottom: 225px;
+    background-image: url("back.jpeg");
+    background-size: 110% 100%;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -10px;
+}
+
+
+.first h1, p{
+    margin:40px;
+    background-color: transparent;  
+}
+
+.first h1 {
+    margin-top: 325px;
+    font-size: 50px;
+}
+
+.first p{
+    font-size: 25px;
+}
+
+#name{
+    
+    background-color: transparent;
+
+}
+
+button{
+    font-size: 20px;
+    background-color: black;
+}
+
+.projects{
+    display:flex;
+    flex-wrap:wrap;
+    padding:50px 1px;
+    justify-content:space-around;
+    box-shadow: 0 4px 1px -2px rgb(207, 207, 207);
+
+
+}
+
+.projects img{
+    width: 400px;
+    margin-bottom: 10px;
+
+}
+
+.project-head {
+    text-align: center;
+    margin-top: 65px;
+    font-size: 25px;
+
+}
+
+.skills{
+    text-align: center;
+
+
+
+}
+
+.skills h2{
+    text-align: center;
+    font-size: 35px;
+}
+
+.skills h3{
+    font-size: 22px;
+    color:rgb(204, 205, 206);
+    padding-bottom: 30px;
+    box-shadow: 0 4px 1px -2px rgb(207, 207, 207);
+
+
+}
+
+footer{
+
+    text-align: center;
+    justify-content: space-around;
+}
+
+footer p{
+    display:inline;
+}
+
+nav ul *:hover{
+    text-decoration: underline;
+}
+
+.first button:hover{
+    background-color: rgb(63, 65, 65);
+}

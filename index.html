@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href=reasources/index.css>
+</head>
+<body>
+    <header>
+       <nav>
+        <div class="name">
+            <a href="#bb"><h2 >Bradley</h2></a>
+        </div>
+        <div class="nlist">
+            <ul>
+                <a href='#pb'><li>My Projects</li></a>
+                <a href="#sb"><li>My Skills</li></a>
+            </ul>
+        </div>
+       </nav>
+    </header>
+    <main id="bb">
+        <div class="first">
+            <img>
+            <h1 >My name is <div id="name">Bradley Armstrong</div></h1>
+            <p>I am currently completing the code academy full stack engineer path
+                . I am from Uckfield, East Sussex and I am 21 years of age.
+            </p>
+                <a href='#pb'><button class="pb">MY PROJECTS</button></a>
+                <a href="#sb"><button class =sb>MY SKILLS</button></a>
+                <button id="pb" onclick="alert(sentenceMaker())" >RANDOM SENTENCE</button>
+        </div>
+<script>
+    function randomGenerator(ran){
+    return Math.floor(Math.random()*3)
+}
+
+const numbers = ["two","three","four","five"]
+const animals = ["snakes", "lions", "cats", "dogs"]
+const endings = ["eating their food.", "going to sleep.", "having a fight.", "running at night."]
+
+const sentenceMaker=()=>{
+    return `There was ${numbers[randomGenerator()]} ${animals[randomGenerator()]} ${endings[randomGenerator()]}`
+}
+
+</script>
+        <div class="project-head">
+            <h2>My Projects</h2>
+        </div>
+        <div class="projects">
+            <div class="grid"><img src="reasources/x0x.jpeg"></div>
+            <div class="grid"><img src="reasources/x0x.jpeg"></div>
+            <div class="grid"><img src="reasources/x0x.jpeg"></div>
+            <div class="grid"><img src="reasources/x0x.jpeg"></div>
+            <div class="grid"><img src="reasources/x0x.jpeg"></div>
+            <div class="grid"><img src="reasources/x0x.jpeg"></div>
+            <div class="grid"><img src="reasources/x0x.jpeg"></div>
+            <div class="grid"><img src="reasources/x0x.jpeg"></div>
+        </div>
+        <div class="skills">
+            <h2 id="sb">My Skills</h2>
+            <div class="skill-list">
+                <h3>
+                    Some of my skills I learnt from the Code Academy Full Stack Engineer carrer path among other reaserch are: JavaScript, Node.JS, SQL, Express.JS, React, TDD, aswell as more.
+                </h3>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Phone number: Not currently avaliable</p>
+        <p>Email address: Not currently avaliable</p>
+
+    </footer>
+</body>
+</html>
